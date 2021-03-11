@@ -1,0 +1,45 @@
+div{
+    background-color: black;
+    height: 100px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 20%;
+    height: 40px;
+    /* margin: auto; */
+    animation: searchin 0.3s ease-in-out;
+}
+@keyframes searchin{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 20%;
+    }
+}
+@keyframes searchout{
+    from{
+        width: 20%;
+    }
+    to{
+        width: 0px;
+    }
+}
+
+.out{
+    animation: searchout 0.3s ease-in-out;
+    width: 0px;
+
+}
+.hide{
+
+    display: none;
+}
+
+.button{
+    cursor: pointer;
+}

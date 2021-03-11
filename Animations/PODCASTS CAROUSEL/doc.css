@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+.animpodcasts{
+  border: 4px solid black;
+  overflow: hidden;
+  display: flex;
+  width: 30%;
+
+}
+
+
+.slidepod{
+  /* height: 350px; */
+  /* width: fit-content; */
+  display: flex;
+  position: relative;
+  /* overflow: auto; */
+  transition: all 2s ease-out;
+}
+
+.slidepod img{
+  height: 141.5px;
+  width: 198.5px;
+}
+
+.text ul{
+  margin-top: 25px;
+  font-size: 18px;
+}
+.text ul li{
+  margin-top: 40px;
+  list-style-type: none;
+  cursor: pointer;
+  /* font-family: cursive; */
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.text ul li:hover{
+  color: #FFDE00;
+}
+
+.color{
+  color: #FFDE00;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+}
+.a1pod{
+  transform: translateX(0px);
+}
+.a2pod{
+  transform: translateX(-355px);
+}
+.a3pod{
+  transform: translateX(-715px);
+}
+
+.a4pod{
+  transform: translateX(-1072px);
+}
+
+
+.buttonpodcast{
+  text-align: center;
+  width: 30%;
+}
+
+.buttonpodcast img{
+  /* transform: scale(1.5); */
+  margin-top: 10px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.d{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slidepod p{
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+}

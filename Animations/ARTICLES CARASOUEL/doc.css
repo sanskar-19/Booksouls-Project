@@ -1,0 +1,47 @@
+/* mARGIN rESET */
+ *{
+   margin: 0;
+   padding: 0;
+ }
+.animart{
+  width: 350px;
+   border: 2px solid black;
+   height: 140px;
+   position: relative;
+   left: 20%;
+   overflow: hidden;
+
+}
+ .slideart{
+   margin-left: 20px;
+   display: flex;
+   position: relative;
+   transition: all 2s ease-out;
+ }
+
+
+ .a1art{
+   transform: translateX(0px);
+ }
+ .a2art{
+   transform: translateX(-318px);
+ }
+ .a3art{
+   transform: translateX(-669px);
+ }
+
+ .slideart img{
+   margin-right: 20px;
+   height: 98.27px;
+   width: 311px;
+ }
+
+ .buttonarticle{
+   display: block;
+   /* padding: 0 auto; */
+   text-align: center;
+ }
+
+ .buttonarticle img{
+   cursor: pointer;
+ }

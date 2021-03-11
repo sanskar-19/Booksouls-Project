@@ -1,0 +1,152 @@
+/* margin reset */
+ *{
+   margin: 0;
+   padding: 0;
+
+ }
+
+ .sliderbig{
+   position: relative;
+   top: 0;
+   left: 0;
+   width: 39%;
+   /* height: 50px; */
+   /* border: 2px solid black; */
+   height: 190px;
+   overflow: hidden;
+ }
+
+ .sliderbig .slidebig, .slidersmall .slidesmall{
+   position: absolute;
+   top: 0;
+   left: 0;
+   /* animation: fadein 10s linear ; */
+   /* animation: fadeout 5s 5s linear; */
+
+ }
+
+.image1{
+  animation: fadein1 30s linear infinite;
+}
+.image2{
+  animation: fadein2 30s linear infinite;
+}
+.image3{
+  animation: fadein3 30s linear infinite;
+}
+
+.slidesmall img, .slidebig img{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.slidersmall{
+
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 24%;
+  /* height: 50px; */
+  border: 2px solid black;
+  height: 122px;
+  overflow: hidden;
+
+}
+
+.articleanimation{
+  border: 4px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  z-index: 2;
+  position: relative;
+}
+
+/* .artslide1{
+  position: absolute;
+  left: 28%;
+}
+
+.artslide2{
+  position: absolute;
+  top: 20%;
+  left: 28%;
+
+} */
+
+
+
+ @keyframes fadein1{
+
+0%{
+  opacity: 0;
+}
+10%{
+  opacity: 1;
+
+}
+20%{
+  opacity: 1;
+}
+25%{
+  opacity: 1;
+}
+33.5%{
+  opacity: 0;
+}
+100%{
+  opacity: 0;
+}
+ }
+
+
+ @keyframes fadein2{
+
+0%,33.5%{
+  /* opacity: 1; */
+  opacity: 0;
+}
+
+44.25%{
+  opacity: 1;
+}
+
+55.25%{
+  opacity: 1;
+}
+
+60.25%{
+  opacity: 1;
+}
+
+67%,100%{
+  opacity: 0;
+}
+
+}
+
+
+
+ @keyframes fadein3{
+
+0%,67%{
+  opacity: 0;
+}
+77.5%{
+  opacity: 1;
+}
+87.5%{
+  opacity: 1;
+}
+92.5%{
+  opacity: 1;
+}
+100%{
+  opacity: 0;
+}
+
+}
+
